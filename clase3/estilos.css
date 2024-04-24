@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 body{
     color:red;
+    background-color: honeydew;
+
 }
 
 ol{
@@ -7,7 +11,7 @@ ol{
     color:blueviolet;
 }
 
-#bio{
+#bio{ /* ID */
     font-size: x-large;
     background-color: rgb(245, 231, 213);
     color: rgb(25, 27, 26);
@@ -18,10 +22,11 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.title{
+.title{ /* class */
     color: chocolate;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 200;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
 }
 
 img{
