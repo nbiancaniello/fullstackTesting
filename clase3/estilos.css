@@ -1,0 +1,30 @@
+body{
+    color:red;
+}
+
+ol{
+    font-size: larger;
+    color:blueviolet;
+}
+
+#bio{
+    font-size: x-large;
+    background-color: rgb(245, 231, 213);
+    color: rgb(25, 27, 26);
+    margin: 2%;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title{
+    color: chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+
+img{
+    margin: 2%;
+    size: 50%;
+}
