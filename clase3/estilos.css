@@ -26,5 +26,6 @@ p{
 
 img{
     margin: 2%;
-    size: 50%;
+    border: 1px;
+    border-radius: 3%;
 }
