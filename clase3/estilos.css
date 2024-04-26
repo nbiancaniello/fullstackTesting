@@ -1,12 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
 body{
     color:red;
     background-color: honeydew;
-
 }
 
-ol{
+.encabezado{
+    background: url("./images/StrawHatPirates.webp") no-repeat;
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    height: 10vh;
+}
+
+.menuSuperior{
+    list-style: none;
+    text-align: center;
+}
+
+.menuSuperior li {
+    display: inline-block;
+    padding: 2rem;
+}
+
+.menuSuperior a{
+    text-decoration: none;
+    color:aliceblue;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+ol, ul{
+    padding-left: 1rem;
     font-size: larger;
     color:blueviolet;
 }
@@ -27,10 +63,36 @@ p{
     font-family: 'PT Sans Narrow', sans-serif;
     font-style: normal;
     font-weight: 600;
+    font-size: medium;
+}
+
+#pasos{
+    padding-left: 2rem;
+}
+
+#nombres{
+    padding-left: 2rem;
 }
 
 img{
     margin: 2%;
     border: 1px;
     border-radius: 3%;
+}
+
+iframe{
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
 }
