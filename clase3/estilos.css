@@ -58,6 +58,10 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.disclaimer{
+    font-size: 50%;
+}
+
 .title{ /* class */
     color: chocolate;
     font-family: 'PT Sans Narrow', sans-serif;
