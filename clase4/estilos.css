@@ -114,12 +114,14 @@ footer a{
 
 .contenido__imagen{
     width: 80%;
+    margin: 1rem 0rem 2rem 0rem;
 }
 
 .contenido__imagen img{
     width: 100%;
     box-shadow: 5px 5px rgba(169, 169, 169, 0.721);
     border-radius: 10px;
+    z-index: -1;
 }
 
 /* Sugerencias */
@@ -135,6 +137,11 @@ footer a{
 
 .contenido__sugerencias li{
     color: white;
+}
+
+.charName{
+    background-color: white;
+    width: 5rem;
 }
 
 .footer{
