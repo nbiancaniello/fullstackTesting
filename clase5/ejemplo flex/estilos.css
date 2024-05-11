@@ -1,0 +1,74 @@
+.contenedor_padre{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.caja{
+    height: 150px;
+    width: 150px;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.gris{
+    background-color: grey;
+}
+
+/* Ejemplo Header */
+.header{
+    display: flex;
+    background-color: darkseagreen;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    background-color: pink;
+    width: 20%;
+}
+
+.logo p{
+    text-align: center;
+}
+
+.menu{
+    background-color: cornflowerblue;
+    width: 60%;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu li{
+    display: inline-block;
+    padding-right: 1.5rem;
+}
+
+.login{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.naranja{
+    background-color: orange;
+}
