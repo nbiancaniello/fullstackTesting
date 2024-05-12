@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.tienda{
+    background-color: bisque;
+    text-align: center;
+    padding: 2rem;
+}
+
+.tienda img{
+    width: 60%;
+}
+
+.comunidad{
+    background-color: brown;
+    padding: 2rem;
+}
+
+.comunidad img{
+    width: 70%;
+}
+
+.texto{
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.footer{
+    height: 15vh;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* tableta */
+@media(min-width:500px){
+    
+    body{
+        background-color: darkgoldenrod;
+    }
+
+    .tienda{
+        background-color: dimgrey;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    .comunidad{
+        background-color: darkseagreen;
+        display: flex;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    .tienda{
+        text-align: left;
+    }
+}
+
+/* escritorio */
+@media(min-width:992px){
+    
+    body{
+        background-color: fuchsia;
+    }
+
+    .tienda{
+        background-color: khaki;
+        flex-wrap: nowrap;
+    }
+
+    .comunidad{
+        background-color: papayawhip;
+    }
+}
+
+/* Pantallas grande */
+@media(min-width:1200px){
+    body{
+        background-color: darkred;
+    }
+}
