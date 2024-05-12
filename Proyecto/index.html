@@ -3,41 +3,88 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Proyect</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' href='./styles/styles.css'>
     <script src='main.js'></script>
-    <link rel='stylesheet' href='./estilos.css'>
-
 </head>
 <body>
-    <header class="encabezado">
-        <nav>
-            <ul class="menuSuperior">
-                <li><a href="index.html">Home</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="contenido">
-        <h1>Receta</h1>
-        <div class="contenido__imagen">
-            <img src="./img/receta.webp" alt="carneVerduras">
+    <div id="grid">
+        <div class="top-bar">
+            <div class="logo">
+                <a href="./index.html" class="logo">
+                    <img src="./img/logo.png" alt="Logo"> 
+                </a>
+            </div>
+            <nav class="navigation">
+                <div>
+                    <a href="./user.html">User</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </nav>
+            <section class="login">
+                <button>Login</button>
+            </section>    
         </div>
-        <ol>
-            <li>Pelar las verduras</li>
-            <li>Sazonar la carne</li>
-            <li>Prender el horno</li>
-            <li>Poner ingredientes en bandeja</li>
-            <li>Poner bandeja en horno</li>
-            <li>Cocinar por 30 minutos</li>
-            <li>Servir</li>
-        </ol>
-    </section>
-    <aside class="contenido__video">
-        <div>
-            <iframe width="400" height="300" src="https://www.youtube.com/embed/uc2kDe6IgJw?si=Sezqb0XGkACQgP_K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="main-content">
+            <section class="content-news">
+                <div class="content-news-header">
+                    <h1>Latest News</h1>
+                </div>
+                <div class="content-news-table">
+                    <div class="news">
+                        <h3>Title 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatem sapiente reprehenderit hic corrupti iste, dignissimos facere. Incidunt magni beatae minus culpa provident mollitia vel deserunt delectus. Reprehenderit, odit consectetur?</p>
+                    </div>
+                    <div class="news">
+                        <h3>Title 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatem sapiente reprehenderit hic corrupti iste, dignissimos facere. Incidunt magni beatae minus culpa provident mollitia vel deserunt delectus. Reprehenderit, odit consectetur?</p>
+                    </div>
+                    <div class="news">
+                        <h3>Title 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatem sapiente reprehenderit hic corrupti iste, dignissimos facere. Incidunt magni beatae minus culpa provident mollitia vel deserunt delectus. Reprehenderit, odit consectetur?</p>
+                    </div>
+                </div>
+            </section>
+            <section class="content-media">
+                <div class="content-media-header">
+                    <h1>Latest Content</h1>
+                </div>
+                <div class="content-media-table">
+                    <div class="video">
+                        <iframe src="https://www.youtube.com/embed/Gtj52nc0tNw?si=X-2AMvsaXZXR4r_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="video">
+                        <iframe src="https://www.youtube.com/embed/UTwQqA_6_mw?si=0qcT7skqU5usjFjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="video">
+                        <iframe src="https://www.youtube.com/embed/l-iHDj3EwdI?si=joc6zWM2mliUmgGN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+            <aside class="content-links">
+                <div class="link">
+                    <a href="https://twitter.com/home" class="link-image">
+                        <img src="./img/x.webp" alt="X"> 
+                    </a>
+                </div>
+                <div class="link">
+                    <a href="https://www.twitch.tv/" class="link-image">
+                        <img src="./img/twitch.webp" alt="Twitch"> 
+                    </a>
+                </div>
+                <div class="link">
+                    <a href="https://www.youtube.com/" class="link-image">
+                        <img src="./img/youtube.webp" alt="Youtube"> 
+                    </a>
+                </div>
+            </aside>
         </div>
-    </aside>
-    <footer class="pie">Inicio</footer>
+        <footer class="footer">
+            <p>Derechos reservados</p>
+        </footer>
+    </div>
+
 </body>
 </html>
