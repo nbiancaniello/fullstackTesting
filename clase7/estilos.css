@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: larger;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+fieldset{
+    margin: 3rem;
+    width: 30%;
+    padding: 1rem;
+    border-color: brown;
+}
+
+.input_form{
+    margin: 2rem 0rem;
+}
+
+.input_form input{
+    height: 1rem;
+}
+
+label{
+    display: block;
+}
+
+input:focus{
+    background-color: lightgreen;
+}
+
+.button-send{
+    width: 100px;
+    height: 30px;
+}
+
+.button-send:hover{
+    background-color: green;
+    color: white;
+}

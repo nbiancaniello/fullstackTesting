@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='./estilos.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <!-- <form action="" method="GET">
+        <fieldset>
+            <legend>Información Personal</legend>
+            <p>Completa el siguiente Formulario</p>
+
+            <div class="input_form">
+                <label for="nombre">Nombre</label>
+                <input value="Nombre" name="nombre"/>
+            </div>
+            <div class="input_form">
+                <label for="apellido">Apellido</label>
+                <input value="Apellido" name="apellido"/>
+            </div>
+    
+            <div class="input_form">
+                <label for="talles">Talle</label>
+                <select name="talles" >
+                    <option value="L">Large</option>
+                    <option value="M">Medium</option>
+                    <option value="S">Small</option>
+                </select>
+            </div>
+            <input type="submit" value="Enviar" class="button-send"/>
+        </fieldset>        
+    </form> -->
+
+    <form action="https://formspree.io/f/xrgndlyw" method="post">
+        <fieldset>
+            <legend>Información Personal</legend>
+            <p>Completa el siguiente Formulario</p>
+
+            <div class="input_form">
+                <label for="nombre">Nombre</label>
+                <input value="" name="nombre" required/>
+            </div>
+            <div class="input_form">
+                <label for="apellido">Apellido</label>
+                <input value="" name="apellido" required/>
+            </div>
+    
+            <div class="input_form">
+                <label for="talles">Talle</label>
+                <select name="talles" >
+                    <option value="L">Large</option>
+                    <option value="M">Medium</option>
+                    <option value="S">Small</option>
+                </select>
+            </div>
+
+            <div class="input_form">
+                <label for="email">Your Email</label>
+                <input name="Email" id="email" type="email">
+            </div>
+
+            <input type="submit" value="Enviar" class="button-send"/>
+        </fieldset>
+
+        <!-- <button type="submit">Submit</button> -->
+      </form>
+</body>
+</html>
