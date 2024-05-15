@@ -7,6 +7,10 @@ html{
     font-size: 10px;
 }
 
+/* *********** */
+/* index.html */
+/* *********** */
+
 body{
     background-color: cornflowerblue;
     
@@ -66,11 +70,16 @@ body{
     padding: 2rem;
 }
 
+.navigation a:hover{
+    text-decoration: underline;
+}
+
 .login{
     grid-area: login;
 }
 
-.login button{
+/* .login button{ */
+.login-button{
     width: 90px;
     height: 45px;
     color: white;
@@ -110,6 +119,10 @@ body{
     border: 1px solid black;
     border-radius: 5px;
     width: 300px;
+}
+
+.news:hover{
+    background-color: grey;
 }
 
 .content-media-header{
@@ -254,4 +267,41 @@ body{
 /* escritorio */
 @media(min-width:992px){
     
+}
+
+/* *********** */
+/* login.html */
+/* *********** */
+
+.login-content form{
+    width: 50%;
+}
+
+.login-content form fieldset{
+    margin: 3rem;
+    width: 30%;
+    padding: 1rem;
+    border: none;
+}
+
+.login-content{
+    margin: 2rem 0rem;
+}
+
+.login-control label{
+    display: block;
+}
+
+
+.login-control input, label{
+    height: 2rem;
+    font-size: 2rem;
+}
+
+.login-content .login-button{
+    margin-top: 1rem;
+}
+
+.login-button:hover{
+    background-color: darkslategray;
 }
