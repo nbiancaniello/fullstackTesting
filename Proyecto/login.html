@@ -3,10 +3,10 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Proyect</title>
+    <title>Login</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href='./styles/styles.css'>
-    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <div id="grid">
@@ -18,8 +18,8 @@
             </div>
             <nav class="navigation">
                 <div>
-                    <a href="./user.html">User</a>
-                    <a href="#">Link 2</a>
+                    <a href="./creators.html">Creators</a>
+                    <a href="./news.html">News</a>
                     <a href="#">Link 3</a>
                 </div>
             </nav>
@@ -27,7 +27,7 @@
                 <button class="login-button" onclick="window.location.href='./login.html'">Login</button>
             </section>    
         </div>
-        <div class="login-content">
+        <div class="login-content animate__animated animate__fadeIn">
             <form action="" method="GET">
                 <fieldset>
                     <div class="login-control">
@@ -36,7 +36,7 @@
                     </div>
                     <div class="login-control">
                         <label for="password">Password</label>
-                        <input name="password">
+                        <input name="password" type="password">
                     </div>
                     <input type="submit" value="Login" class="login-button">
                 </fieldset>
