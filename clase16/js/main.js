@@ -20,18 +20,16 @@
 // Selección de elementos del DOM quertSelector
 
 // let titulo = document.querySelector('#titulo');
-let titulo = document.querySelector('#titulo');
-console.log(titulo);
+// let titulo = document.querySelector('#titulo');
+// console.log(titulo);
 
 // let parrafos = document.querySelectorAll('.parrafo');
 // console.log(parrafos);
 
-let cambiarEstiloBtn = document.querySelector('#cambiarEstilo');
 // let cambiarTextoBtn = document.querySelector('#cambiarTexto');
 // let cambiarColorBtn = document.querySelector('#cambiarColor');
 // let cambiarClaseBtn = document.querySelector('#cambiarClase');
 
-console.log(cambiarEstiloBtn);
 // console.log(cambiarTextoBtn);
 // console.log(cambiarColorBtn);
 // console.log(cambiarClaseBtn);
@@ -59,6 +57,12 @@ console.log(cambiarEstiloBtn);
 
 
 // console.dir(document.body.childNodes);
+let titulo = document.querySelector('#titulo');
+console.log(titulo);
+
+let cambiarEstiloBtn = document.querySelector('#cambiarEstilo');
+console.log(cambiarEstiloBtn);
+
 console.dir(document.body.childNodes[3].className);
 
 console.log(titulo.textContent);
