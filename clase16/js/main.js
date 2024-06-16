@@ -63,7 +63,8 @@ console.log(titulo);
 let cambiarEstiloBtn = document.querySelector('#cambiarEstilo');
 console.log(cambiarEstiloBtn);
 
-console.dir(document.body.childNodes[3].className);
+console.dir(document.body.childNodes);
+console.dir(document.body.childNodes[1].id);
 
 console.log(titulo.textContent);
 
