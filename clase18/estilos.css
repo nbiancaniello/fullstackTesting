@@ -1,0 +1,49 @@
+html{
+   font-size: 10px;
+}
+
+body{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: lightgrey;
+   color:  darkslategrey;
+   margin: 0;
+   padding: 2rem;
+}
+
+#titulo{
+   color: blue;
+}
+
+button{
+   background-color: beige;
+   border: 0;
+   height: 2.5rem;
+}
+
+/* Clase para cambiar de Color */
+.cambiarColor{
+   color: lightsalmon;
+}
+
+.nuevaClase{
+   background-color: aliceblue;
+   border-radius: 0.5rem;
+   color: green;
+}
+
+.btn{
+   color:green;
+}
+
+.agregarClase{
+   background-color:white;
+}
+
+.adoptada{
+   text-decoration: line-through;
+   color: blueviolet;
+}
+
+.eliminar{
+   color: red;
+ }
